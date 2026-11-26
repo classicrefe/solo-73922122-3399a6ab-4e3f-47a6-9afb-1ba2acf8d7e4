@@ -1,0 +1,17 @@
+{
+  "name": "jacquard-collab",
+  "version": "1.0.0",
+  "description": "双工位协同提花色格改色演示（Node.js + WebSocket）",
+  "private": true,
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "node --test \"server/test/*.test.js\""
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}
